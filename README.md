@@ -1,76 +1,49 @@
-# 📋 Clipboard Manager
+📋 Clipboard Manager
 
-A powerful macOS menu bar application that enhances clipboard management with AI-driven smart suggestions. The Clipboard Manager app allows you to copy and manage multiple pieces of text efficiently, leveraging Natural Language Processing (NLP) to provide contextual and semantic-based clipboard suggestions.
+Clipboard Manager is a macOS menu bar application designed to enhance productivity by allowing users to store, manage, and efficiently paste multiple clipboard items directly from the menu bar. The app is equipped with AI-driven features to provide smart suggestions and predictive sorting based on usage patterns and semantic similarity.
 
----
+🚀 Features
 
-## 🚀 Features
+🔢 Multi-Clipboard Management
 
-- 📑 **Multi-Clipboard Management:** Store and access multiple copied items from the macOS menu bar.
-- 💡 **AI-Driven Smart Suggestions:** Utilizes NLP to prioritize clipboard items based on contextual relevance.
-- 📈 **Usage-Based Prioritization:** Items are scored based on usage frequency, recency, and semantic similarity.
-- 🧠 **Semantic Similarity Matching:** Uses Apple's Natural Language (NL) framework for advanced text embedding and similarity scoring.
-- ⏪ **Undo Clear History:** Restore clipboard items if cleared by mistake.
-- 🔥 **Automatic Cleanup:** Removes low-priority items when storage exceeds the limit.
+Store multiple clipboard items with quick access in the menu bar.
 
----
+Automatically monitor clipboard changes and update the menu.
 
-## 🛠️ Installation
+🎯 AI-Driven Smart Suggestions
 
-### Prerequisites
-- macOS with Xcode installed.
-- Git (optional for cloning the repository).
+Natural Language Processing (NLP) to compute semantic similarity between clipboard items.
 
-### Clone the Repository
-```bash
-git clone https://github.com/yourusername/ClipboardManager.git
-cd ClipboardManager
-```
+Predictive scoring algorithm prioritizes frequently used or contextually relevant items.
 
-### Open in Xcode
-1. Open the `ClipboardManager.xcodeproj` file in Xcode.
-2. Select your target and choose **Run** (`Cmd + R`) to build and start the app.
+Cosine similarity used to match context and boost suggestions.
 
----
+🧠 Intelligent Cleanup
 
-## 🚦 How to Use
-1. The **Clipboard Manager** icon will appear in the **macOS menu bar**.
-2. **Copy any text** to see it **added to the clipboard history**.
-3. **Click the menu icon** to view and **select clipboard items**.
-4. **Smart suggestions** will appear **based on recent selections**.
-5. Use **Clear History** to remove all items and **Undo** to restore them if needed.
+Uses predictive scoring to automatically remove low-priority items when the history limit is reached.
 
----
+Prevents negative scores to ensure relevant items are retained.
 
-## 🧠 How It Works
-- When you **copy text**, the app generates a **semantic embedding** using **NLP**.
-- The **predictive score** for each item is calculated using:
-  - **Usage frequency**
-  - **Recency of use**
-  - **Semantic similarity** to the **current context**
-- Items are **prioritized** in the **menu** based on **predictive scores**.
+♻️ Clipboard History Management
 
----
+Clear History option to remove all clipboard items.
 
-## 💡 Contributing
+Undo Clear History to restore the previous state.
 
-1. **Fork the repository**
-2. **Create a new branch** (`git checkout -b feature/my-feature`)
-3. **Commit your changes** (`git commit -m 'Add some feature'`)
-4. **Push to the branch** (`git push origin feature/my-feature`)
-5. **Open a Pull Request**
+🖥️ Clean and Minimal UI
 
----
+Displays clipboard items with usage percentages.
 
-## 📝 License
-This project is licensed under the **MIT License**.
+Right-aligned percentages for a polished look.
 
----
+Dividers between clipboard items for visual clarity.
 
-## 📧 Contact
-For any questions, feel free to **reach out** or **create an issue** in the repository!
+🛠️ How It Works
 
----
+Clipboard Monitoring: Continuously monitors the macOS clipboard.
 
-Enjoy using the **Clipboard Manager**! 😊
+Embedding Generation: Generates NLP embeddings using Apple's Natural Language framework.
 
+Predictive Scoring: Calculates a score for each clipboard item based on usage frequency, time since last used, and semantic similarity.
+
+Smart Suggestions: Sorts items by relevance using cosine similarity.
