@@ -17,4 +17,4 @@ A macOS menu bar application that tracks clipboard history and uses AI for smart
 - Clear and undo clipboard history.
 - Lightweight and efficient.
 
-## 🔗 [Download Now](https://github.com/Atharva404/ClipboardManager/releases)
+![GitHub all releases](https://img.shields.io/github/downloads/Atharva404/ClipboardManager/total?color=blue&style=for-the-badge)
