@@ -18,4 +18,3 @@ A macOS menu bar application that tracks clipboard history and uses AI for smart
 - Lightweight and efficient.
 
 ## 🔗 [Download Now](https://github.com/Atharva404/ClipboardManager/releases)
-curl -s https://api.github.com/repos/atharva404/ClipboardManager/releases | egrep 'download_count'  | cut '-d:' -f 2 | sed 's/,/+/' | xargs echo | xargs -I N echo N 0  | bc
